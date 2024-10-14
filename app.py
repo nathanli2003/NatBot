@@ -29,7 +29,7 @@ def get_response():
             ],
             temperature=data.get('temperature', 1.0),
             top_p=data.get('top_p', 1.0),
-            max_tokens=data.get('max_tokens', 131000),
+            max_tokens=data.get('max_tokens', 8000),
             model=model_name
         )
         
